@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Cyberbullying Detector",
+    "version": "1.0",
+    "description": "Detect cyberbullying in selected text",
+    "permissions": ["contextMenus", "storage", "activeTab", "scripting"],
+    "host_permissions": ["http://127.0.0.1:5000/*"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
